@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\TaskManagementService.Common\TaskManagementService.Common.csproj" />
+    <ProjectReference Include="..\TaskManagementService.Data\TaskManagementService.Data.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

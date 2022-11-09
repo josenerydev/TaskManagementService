@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TaskManagementService.Common\TaskManagementService.Common.csproj" />
+    <ProjectReference Include="..\TaskManagementService.Data\TaskManagementService.Data.csproj" />
+    <ProjectReference Include="..\TaskManagementService.Data.SqlServer\TaskManagementService.Data.SqlServer.csproj" />
+    <ProjectReference Include="..\TaskManagementService.Web.Api.Models\TaskManagementService.Web.Api.Models.csproj" />
+    <ProjectReference Include="..\TaskManagementService.Web.Common\TaskManagementService.Web.Common.csproj" />
+  </ItemGroup>
+
+</Project>
