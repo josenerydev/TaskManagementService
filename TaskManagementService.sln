@@ -31,22 +31,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagementService.Web.A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagementService.Web.Common.Tests", "tests\TaskManagementService.Web.Common.Tests\TaskManagementService.Web.Common.Tests.csproj", "{8E8B118F-699D-46B7-9753-DAD3B5141A0C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sql", "sql", "{60F85098-4A59-4C31-8347-1C92A85F555A}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{0C22E6E8-C9E3-475E-A198-CE5C99A5F7D7}"
-	ProjectSection(SolutionItems) = preProject
-		ReferenceData.sql = ReferenceData.sql
-		TestData.sql = TestData.sql
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tables", "Tables", "{182C2F4D-5A0E-4AF0-8998-BD184C59E832}"
-	ProjectSection(SolutionItems) = preProject
-		Status.sql = Status.sql
-		Task.sql = Task.sql
-		TaskUser.sql = TaskUser.sql
-		User.sql = User.sql
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -118,8 +102,6 @@ Global
 		{DF0BC4EE-1561-4485-96E1-D9A4C8E83C00} = {D8EADDAC-67DA-4608-B102-97E60C162550}
 		{BBB9E036-42AD-4D96-95F9-3ECACB3FD690} = {D8EADDAC-67DA-4608-B102-97E60C162550}
 		{8E8B118F-699D-46B7-9753-DAD3B5141A0C} = {D8EADDAC-67DA-4608-B102-97E60C162550}
-		{0C22E6E8-C9E3-475E-A198-CE5C99A5F7D7} = {60F85098-4A59-4C31-8347-1C92A85F555A}
-		{182C2F4D-5A0E-4AF0-8998-BD184C59E832} = {60F85098-4A59-4C31-8347-1C92A85F555A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3E934411-2F46-4234-8BCE-5F62327EF992}
